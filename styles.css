@@ -119,8 +119,8 @@ textarea:focus-visible {
 }
 
 .eyebrow {
-    color: #6b7280;
-    font-size: 0.85rem;
+    color: #cdab62;
+    font-size: 0.95rem;
     margin-bottom: 5px;
 }
 
@@ -449,7 +449,7 @@ textarea:focus-visible {
 }
 
 .section-number {
-    color: #0056b3;
+    color: #cdab62;
 
     font-size: 3rem;
 
@@ -860,7 +860,7 @@ textarea:focus-visible {
 }
 
 .footer a:hover {
-    color: white;
+    color: #cdab62;
 }
 
 .footer p {
