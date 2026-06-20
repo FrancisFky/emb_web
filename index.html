@@ -489,64 +489,129 @@
 
         </section>
 
-        <!-- CONTACT -->
+
+        <!-- CONTACT SECTION -->
+
         <section class="contact section" id="contact">
 
-            <div class="container contact-grid">
 
-                <div>
+            <div class="container">
 
-                    <h2 data-i18n="contact_title">
+                <div class="section-header">
 
-                        Contactez-nous
+                    <span class="section-number">04</span>
 
-                    </h2>
+                    <div>
 
-                    <p>
+                        <h2 data-i18n="contact_title">
+                            Contactez l'Ambassade
+                        </h2>
 
-                        <span data-i18n="contact_address">Zone diplomatique de Gigiri, Nairobi, Kenya</span>
+                        <p>
+                            Notre équipe est à votre disposition pour toute demande
+                            d'information, assistance consulaire ou prise de rendez-vous.
+                        </p>
 
-                    </p>
-
-                    <p>
-
-                        <span data-i18n="contact_tel_label">Tél :</span>
-                        +254 768 511 370
-
-                    </p>
-
-                    <p>
-
-                        <span data-i18n="contact_email_label">Email:</span>
-                        info@congoembassy.ke
-
-                    </p>
+                    </div>
 
                 </div>
 
-                <form class="contact-form" novalidate>
+                <div class="contact-grid">
 
-                    <label for="name" class="sr-only" data-i18n="form_name_label">Nom complet</label>
-                    <input id="name" name="name" type="text" placeholder="Nom complet" autocomplete="name" required>
+                    <!-- Embassy Information -->
 
-                    <label for="email" class="sr-only" data-i18n="form_email_label">Adresse email</label>
-                    <input id="email" name="email" type="email" placeholder="Adresse email" autocomplete="email"
-                        required>
+                    <div class="contact-info">
 
-                    <label for="message" class="sr-only" data-i18n="form_message_label">Votre message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                        <div class="contact-card">
 
-                    <button type="submit" class="btn-primary">
+                            <h3>Adresse</h3>
 
-                        <span data-i18n="send_message">Envoyer le message</span>
+                            <p>
+                                Ambassade de la République du Congo<br>
+                                162 Wispers Avenue<br>
+                                Gigiri<br>
+                                P.O. Box 1722-00621<br>
+                                Nairobi, Kenya
+                            </p>
 
-                    </button>
+                        </div>
 
-                </form>
+                        <div class="contact-card">
+
+                            <h3>Téléphone</h3>
+
+                            <p>
+                                +254 727 037 408<br>
+                                +254 733 233 320<br>
+                                +254 700 339 702
+                            </p>
+
+                        </div>
+
+                        <div class="contact-card">
+
+                            <h3>Email</h3>
+
+                            <p>
+                                ambacoken@yahoo.com
+                            </p>
+
+                        </div>
+
+                        <div class="contact-card">
+
+                            <h3>Heures d'ouverture</h3>
+
+                            <p>
+                                Lundi - Vendredi<br>
+                                09h00 - 16h00
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Contact Form -->
+
+                    <form class="contact-form" novalidate>
+
+                        <h3>Envoyez-nous un message</h3>
+
+                        <input id="name" name="name" type="text" placeholder="Nom complet" autocomplete="name" required>
+
+                        <input id="email" name="email" type="email" placeholder="Adresse email" autocomplete="email"
+                            required>
+
+                        <textarea id="message" name="message" rows="6" placeholder="Votre message" required></textarea>
+
+                        <button type="submit" class="btn-primary">
+
+                            <span data-i18n="send_message">
+                                Envoyer le message
+                            </span>
+
+                        </button>
+
+                    </form>
+
+                </div>
 
             </div>
 
+
+
         </section>
+
+
+        <!-- MAP -->
+        <div class="embassy-map">
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.919772879555!2d36.8222!3d-1.2345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMcKwMTQnMDQuMiJTIDM2wrA0OScxOS45IkU!5e0!3m2!1sfr!2ske!4v1650000000000"
+                loading="lazy">
+            </iframe>
+
+        </div>
 
     </main>
 
