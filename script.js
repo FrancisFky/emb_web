@@ -478,3 +478,18 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+const slider = document.querySelector('.news-slider');
+
+document.getElementById('nextNews').addEventListener('click', () => {
+    slider.scrollBy({
+        left: 550,
+        behavior: 'smooth'
+    });
+});
+
+document.getElementById('prevNews').addEventListener('click', () => {
+    slider.scrollBy({
+        left: -550,
+        behavior: 'smooth'
+    });
+});
