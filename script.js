@@ -98,6 +98,11 @@ Veuillez recevoir l'expression de ma haute considération.`,
             about_title: "À propos de l'Ambassade",
             about_description:
                 "L'Ambassade représente la République du Congo et promeut la coopération diplomatique, économique et culturelle avec le Kenya.",
+
+
+            ambassador_name: "Son Excellence M. Léon François Yendouma",
+            ambassador_title: "Ambassadeur de la République du Congo en République du Kenya",
+
             services_title: "Services consulaires",
             service_passport: "Services de passeport",
             service_travel: "Documents de voyage",
@@ -220,6 +225,12 @@ Please accept the assurances of my highest consideration.`,
 
             about_description:
                 "The Embassy represents the Republic of Congo and promotes diplomatic, economic and cultural cooperation with Kenya.",
+
+
+            ambassador_name: "His Excellency Mr. Léon François Yendouma",
+            ambassador_title: "Ambassador of the Republic of the Congo to the Republic of Kenya",
+
+
             services_title: "Consular Services",
             service_passport: "Passport Services",
             service_travel: "Travel Documents",
