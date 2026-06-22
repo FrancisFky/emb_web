@@ -588,3 +588,5 @@ document.getElementById('prevNews').addEventListener('click', () => {
     });
 });
 
+
+// Force update sync 2026
