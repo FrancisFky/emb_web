@@ -83,8 +83,18 @@ document.addEventListener("DOMContentLoaded", () => {
             emergency: "Assistance d'urgence",
             ambassador_tag: "Message de l'ambassadeur",
             ambassador_title: "Bienvenue à l'Ambassade",
-            ambassador_message:
-                "L'Ambassade de la République du Congo au Kenya s'engage à promouvoir la coopération, à renforcer les relations diplomatiques et à servir la communauté congolaise avec professionnalisme et intégrité.",
+            ambassador_message: `Chers compatriotes, chers visiteurs,
+
+C'est avec un réel plaisir que je vous souhaite la bienvenue sur le site officiel de l'Ambassade de la République du Congo en République du Kenya.
+
+Cette plateforme a été conçue afin de vous fournir des informations utiles sur les activités diplomatiques de l'Ambassade, les services consulaires ainsi que les opportunités de coopération entre nos deux pays.
+
+Notre mission est de renforcer les relations d'amitié et de coopération entre la République du Congo et la République du Kenya, tout en assurant la protection et l'accompagnement de nos compatriotes établis dans notre juridiction.
+
+Je vous remercie de votre visite et vous invite à découvrir les différentes rubriques de ce site.
+
+Veuillez recevoir l'expression de ma haute considération.`,
+
             about_title: "À propos de l'Ambassade",
             about_description:
                 "L'Ambassade représente la République du Congo et promeut la coopération diplomatique, économique et culturelle avec le Kenya.",
@@ -124,7 +134,43 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Votre message a été envoyé avec succès.",
 
             contact_error:
-                "Veuillez remplir tous les champs correctement."
+                "Veuillez remplir tous les champs correctement.",
+
+            about_intro: "L'Ambassade de la République du Congo en République du Kenya représente les intérêts de l'État congolais et œuvre au renforcement des relations diplomatiques, économiques, culturelles et de coopération entre les deux pays.",
+
+            mission_title: "Mission Diplomatique",
+            mission_desc: "Représenter la République du Congo auprès des autorités kényanes et des organisations internationales.",
+
+            consular_services_title: "Services Consulaires",
+            consular_services_desc: "Fournir assistance et protection aux ressortissants congolais vivant ou voyageant dans notre juridiction.",
+
+            cooperation_title: "Coopération Bilatérale",
+            cooperation_desc: "Promouvoir les échanges économiques, culturels et institutionnels entre le Congo et le Kenya.",
+
+            news_intro: "Suivez les dernières activités diplomatiques, les événements officiels et les annonces de l'Ambassade.",
+
+            news_cat_1: "DIPLOMATIE",
+            news_1_title: "Renforcement de la coopération bilatérale",
+            news_1_desc: "Nouvelle série d'échanges économiques et culturels entre les deux nations.",
+
+            news_cat_2: "COOPÉRATION",
+            news_2_title: "Rencontre officielle à Nairobi",
+            news_2_desc: "Discussions autour du commerce, de l'agriculture et de l'investissement.",
+
+            news_cat_3: "DIASPORA",
+            news_3_title: "Services dédiés à la communauté",
+            news_3_desc: "Mise en place de nouvelles ressources pour les ressortissants congolais au Kenya.",
+
+            contact_intro: "Notre équipe est à votre disposition pour toute demande d'information, assistance consulaire ou prise de rendez-vous.",
+
+            address_title: "Adresse",
+            phone_title: "Téléphone",
+            email_title: "Email",
+            hours_title: "Heures d'ouverture",
+
+            office_days: "Lundi - Vendredi",
+
+            contact_form_title: "Envoyez-nous un message"
         },
 
         en: {
@@ -158,9 +204,19 @@ document.addEventListener("DOMContentLoaded", () => {
             emergency: "Emergency Assistance",
             ambassador_tag: "Ambassador's Message",
             ambassador_title: "Welcome to the Embassy",
-            ambassador_message:
-                "The Embassy of the Republic of Congo in Kenya is committed to promoting cooperation, strengthening diplomatic relations, and serving the Congolese community with professionalism and integrity.",
+            ambassador_message: `Dear fellow citizens and distinguished visitors,
+
+It is with great pleasure that I welcome you to the official website of the Embassy of the Republic of Congo in the Republic of Kenya.
+
+This platform has been designed to provide you with useful information about the Embassy's diplomatic activities, consular services, and the various opportunities for cooperation between our two countries.
+
+Our mission is to strengthen the bonds of friendship and cooperation between the Republic of Congo and the Republic of Kenya while ensuring the protection and support of our citizens residing within our jurisdiction.
+
+Thank you for your visit, and I invite you to explore the different sections of this website.
+
+Please accept the assurances of my highest consideration.`,
             about_title: "About the Embassy",
+
             about_description:
                 "The Embassy represents the Republic of Congo and promotes diplomatic, economic and cultural cooperation with Kenya.",
             services_title: "Consular Services",
@@ -199,9 +255,47 @@ document.addEventListener("DOMContentLoaded", () => {
                 "Your message has been sent successfully.",
 
             contact_error:
-                "Please complete all fields correctly."
+                "Please complete all fields correctly.",
+            about_intro: "The Embassy of the Republic of Congo in the Republic of Kenya represents the interests of the Congolese State and works to strengthen diplomatic, economic, cultural and cooperation relations between the two countries.",
+
+            mission_title: "Diplomatic Mission",
+            mission_desc: "Represent the Republic of Congo before Kenyan authorities and international organizations.",
+
+            consular_services_title: "Consular Services",
+            consular_services_desc: "Provide assistance and protection to Congolese nationals living or travelling within our jurisdiction.",
+
+            cooperation_title: "Bilateral Cooperation",
+            cooperation_desc: "Promote economic, cultural and institutional exchanges between Congo and Kenya.",
+
+            news_intro: "Follow the latest diplomatic activities, official events and announcements from the Embassy.",
+
+            news_cat_1: "DIPLOMACY",
+            news_1_title: "Strengthening Bilateral Cooperation",
+            news_1_desc: "New series of economic and cultural exchanges between the two nations.",
+
+            news_cat_2: "COOPERATION",
+            news_2_title: "Official Meeting in Nairobi",
+            news_2_desc: "Discussions on trade, agriculture and investment.",
+
+            news_cat_3: "DIASPORA",
+            news_3_title: "Services for the Community",
+            news_3_desc: "Introduction of new resources for Congolese nationals in Kenya.",
+
+            contact_intro: "Our team is available to assist you with information requests, consular assistance and appointment scheduling.",
+
+            address_title: "Address",
+            phone_title: "Phone",
+            email_title: "Email",
+            hours_title: "Opening Hours",
+
+            office_days: "Monday - Friday",
+
+            contact_form_title: "Send Us a Message"
+
         }
     };
+
+
 
 
     const frBtn = document.getElementById("fr-btn");
@@ -493,3 +587,4 @@ document.getElementById('prevNews').addEventListener('click', () => {
         behavior: 'smooth'
     });
 });
+
