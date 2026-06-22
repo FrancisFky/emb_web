@@ -215,6 +215,7 @@ Our mission is to strengthen the bonds of friendship and cooperation between the
 Thank you for your visit, and I invite you to explore the different sections of this website.
 
 Please accept the assurances of my highest consideration.`,
+
             about_title: "About the Embassy",
 
             about_description:
